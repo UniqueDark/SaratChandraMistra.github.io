@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Sarat Chandra Mishra | Official Profile</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans & Outfits for crisp modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        royal: {
+                            50: '#f0f5ff',
+                            100: '#e0ebff',
+                            500: '#2563eb',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            900: '#1e3a8a',
+                        },
+                        amberAccent: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #0f172a;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.04) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.04) 0%, transparent 40%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .toast-enter {
+            animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white; color: black; }
+            .glass-card { border: 1px solid #ccc; box-shadow: none; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-royal-500 selection:text-white">
+
+    <!-- Top Navigation Header -->
+    <header class="sticky top-0 z-40 w-full glass-card border-b border-slate-200/80 no-print">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 h-18 py-4 flex items-center justify-between">
+            <!-- Brand Badge -->
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-royal-700 via-royal-600 to-royal-500 text-white flex items-center justify-center font-display font-extrabold text-lg shadow-sm shadow-royal-500/20">
+                    CMS
+                </div>
+                <div>
+                    <h1 class="font-display font-bold text-base text-slate-900 tracking-tight leading-none">
+                        CMS Sarat Chandra Mishra
+                    </h1>
+                    <p class="text-xs font-medium text-slate-500 mt-0.5">Official Profile</p>
+                </div>
+            </div>
+
+           
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14 space-y-10 flex-grow w-full">
+
+        <!-- Hero Header Section (No Image) -->
+        <section class="relative rounded-3xl glass-card p-6 sm:p-10 shadow-sm border border-slate-200/80 overflow-hidden text-center sm:text-left">
+            <div class="absolute -top-24 -right-24 w-72 h-72 bg-royal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-amberAccent-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="relative z-10 space-y-5">
+                <!-- Status Badge -->
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-royal-50 border border-royal-200 text-royal-700 text-xs font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-royal-600 animate-pulse"></span>
+                    Head Arm Guard • Active Operative
+                </div>
+
+                <!-- Main Name Header -->
+                <div>
+                    <h1 class="text-3xl sm:text-5xl font-display font-extrabold text-slate-900 tracking-tight">
+                        CMS Sarat Chandra Mishra
+                    </h1>
+                    <p class="text-base sm:text-lg font-medium text-royal-600 mt-2">
+                        Head Arm Guard • Skill One Man Army • Brutal Fighter
+                    </p>
+                </div>
+
+                <!-- Brief Bio Tagline -->
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl">
+                    An elite defender defined by raw strength, unshakeable stamina, and absolute independence. Operating with ultimate tactical autonomy in every scenario.
+                </p>
+
+                <!-- Horizontal Key Traits Pill List (Replaces Big Cards & Image) -->
+                <div class="pt-4 border-t border-slate-200/80">
+                    <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Core Identity Traits</p>
+                    <div class="flex flex-wrap gap-2 sm:gap-3">
+                        <!-- Fitness Pill -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-50/80 border border-amber-200/80 text-slate-800 text-xs font-medium shadow-sm hover:border-amber-300 transition-all">
+                            <i data-lucide="dumbbell" class="w-4 h-4 text-amber-600"></i>
+                            <span class="text-slate-500 font-normal">Fitness:</span>
+                            <span class="font-bold text-slate-900">Bada paida</span>
+                        </div>
+
+                        <!-- Date Of Birth Pill -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-rose-50/80 border border-rose-200/80 text-slate-800 text-xs font-medium shadow-sm hover:border-rose-300 transition-all">
+                            <i data-lucide="calendar" class="w-4 h-4 text-rose-600"></i>
+                            <span class="text-slate-500 font-normal">Date Of Birth:</span>
+                            <span class="font-bold text-slate-900">Hisab Nahin</span>
+                        </div>
+
+                        <!-- Age Pill -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-royal-50/80 border border-royal-200/80 text-slate-800 text-xs font-medium shadow-sm hover:border-royal-300 transition-all">
+                            <i data-lucide="infinity" class="w-4 h-4 text-royal-600"></i>
+                            <span class="text-slate-500 font-normal">Age:</span>
+                            <span class="font-bold text-slate-900">Unlimited</span>
+                        </div>
+
+                        <!-- Family Pill -->
+                        <div class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-emerald-50/80 border border-emerald-200/80 text-slate-800 text-xs font-medium shadow-sm hover:border-emerald-300 transition-all">
+                            <i data-lucide="users" class="w-4 h-4 text-emerald-600"></i>
+                            <span class="text-slate-500 font-normal">Family:</span>
+                            <span class="font-bold text-slate-900">Achhi Hele Darkar Nahi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Minimal Details Section -->
+        <section class="glass-card rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-sm space-y-6">
+            <!-- Header with Tab Control -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-200 pb-4 gap-4 no-print">
+                <h2 class="text-lg font-display font-bold text-slate-900 flex items-center gap-2">
+                    <i data-lucide="sliders" class="w-4 h-4 text-royal-600"></i>
+                    <span>Profile Metrics & Attributes</span>
+                </h2>
+                <div class="flex p-1 bg-slate-100 rounded-xl text-xs font-semibold text-slate-600">
+                    <button onclick="switchTab('attributes')" id="tab-attributes" class="px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all">Operational Skills</button>
+                    <button onclick="switchTab('bio')" id="tab-bio" class="px-3 py-1.5 rounded-lg hover:text-slate-900 transition-all">Overview</button>
+                </div>
+            </div>
+
+            <!-- Tab Content: Attributes -->
+            <div id="content-attributes" class="space-y-5">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    <div class="p-4 bg-slate-50/80 rounded-2xl border border-slate-200/60 space-y-2">
+                        <div class="flex justify-between text-xs font-bold">
+                            <span class="text-slate-700">Guard & Defense Command</span>
+                            <span class="text-royal-600">100%</span>
+                        </div>
+                        <div class="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
+                            <div class="bg-royal-600 h-full rounded-full w-full"></div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-slate-50/80 rounded-2xl border border-slate-200/60 space-y-2">
+                        <div class="flex justify-between text-xs font-bold">
+                            <span class="text-slate-700">One Man Army Capability</span>
+                            <span class="text-amberAccent-600">Max</span>
+                        </div>
+                        <div class="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
+                            <div class="bg-amberAccent-500 h-full rounded-full w-full"></div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-slate-50/80 rounded-2xl border border-slate-200/60 space-y-2">
+                        <div class="flex justify-between text-xs font-bold">
+                            <span class="text-slate-700">Physical Fitness (Bada Paida)</span>
+                            <span class="text-emerald-600">Peak</span>
+                        </div>
+                        <div class="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
+                            <div class="bg-emerald-500 h-full rounded-full w-full"></div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-slate-50/80 rounded-2xl border border-slate-200/60 space-y-2">
+                        <div class="flex justify-between text-xs font-bold">
+                            <span class="text-slate-700">Combat Spirit (Brutal Fighter)</span>
+                            <span class="text-rose-600">Unstoppable</span>
+                        </div>
+                        <div class="w-full bg-slate-200/70 h-2 rounded-full overflow-hidden">
+                            <div class="bg-rose-500 h-full rounded-full w-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Detailed Bio -->
+            <div id="content-bio" class="hidden space-y-3 text-slate-600 text-sm leading-relaxed">
+                <p>
+                    <strong>CMS Sarat Chandra Mishra</strong> is recognized for his commanding presence as <em>Head Arm Guard</em>. Defined as a true <strong>One Man Army</strong> and <strong>Brutal Fighter</strong>, he operates independently without relying on traditional support structures.
+                </p>
+                <p>
+                    His key attributes—including a <em>Bada paida</em> physical stature, timeless <em>Unlimited</em> age, unrecorded <em>Hisab Nahin</em> birth date, and an autonomous <em>Achhi Hele Darkar Nahi</em> family disposition—reinforce a profile of supreme independence and strength.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-card border-t border-slate-200 py-6 mt-8 no-print">
+        <div class="max-w-4xl mx-auto px-4 text-center text-xs text-slate-500 space-y-1">
+            <p class="font-display font-bold text-slate-700">CMS Sarat Chandra Mishra • Profile</p>
+            <p>© 2026 CMS Profile</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="fixed bottom-6 right-6 z-50 pointer-events-none space-y-2"></div>
+
+    <!-- Page Logic Script -->
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Tab Switcher
+        function switchTab(tab) {
+            const attrBtn = document.getElementById('tab-attributes');
+            const bioBtn = document.getElementById('tab-bio');
+            const attrContent = document.getElementById('content-attributes');
+            const bioContent = document.getElementById('content-bio');
+
+            if (tab === 'attributes') {
+                attrBtn.className = "px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition-all";
+                bioBtn.className = "px-4 py-2 rounded-xl hover:text-slate-900 transition-all";
+                attrContent.classList.remove('hidden');
+                bioContent.classList.add('hidden');
+            } else {
+                bioBtn.className = "px-4 py-2 rounded-xl bg-white text-slate-900 shadow-sm transition-all";
+                attrBtn.className = "px-4 py-2 rounded-xl hover:text-slate-900 transition-all";
+                bioContent.classList.remove('hidden');
+                attrContent.classList.add('hidden');
+            }
+        }
+
+
+       
+        
+    </script>
+</body>
+</html>
