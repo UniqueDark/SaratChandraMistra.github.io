@@ -1,2 +1,2 @@
-# SaratChandraMistra.github.io
+# SaratChandraMishra.github.io
 Simple website
